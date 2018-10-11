@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+Learning Javascript
+<div id="test">
+</div>
+<p id="paragraph">Brandan</p>
+</body>
+<script>
+    // var greet = "Hello", who = "World";
+    // console.log("%s, %s!", greet, who);
+    // document.write("%s, %s!", greet, who);
+
+    // document.getElementById("paragraph").textContent = "Hello, World";
+
+    var element = document.createElement('p');
+    element.textContent = "Hello, World";
+    document.getElementById('test').appendChild(element);
+</script>
+</html>
